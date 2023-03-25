@@ -53,12 +53,16 @@
                     Comments
                     <textarea class="textarea-form" name="comments" placeholder="Enter the text"></textarea>
                 </label>
-                <label class="form-checkbox">
-                    <input type="checkbox" name="agreement">
-                    <span class="checkbox-text">I agree with the letter and accept the <a href="#">Terms and
-                            Conditions</a></span>
-                    <!-- <svg></svg> -->
-                </label>
+                <div class="checkbox-section">
+                    <label class="form-checkbox">
+                        <input class="input-checkbox" type="checkbox" name="agreement">
+                        <svg class="checkbox-icon" width="16" height="15">
+                            <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                        </svg>
+                        I agree with the letter and accept the <a href="#">Terms and
+                            Conditions</a>
+                    </label>
+                </div>
                 <button class="form-button" type="Submit">Send</button>
             </form>
         </div>
