@@ -362,7 +362,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.form-item input:hover,
+
 .form-item input:focus {
   fill: #2196f3;
   cursor: pointer;
@@ -372,10 +372,6 @@ body {
   outline: none;
 }
 
-.input-form {
-}
-
-.textarea-form:hover,
 .textarea-form:focus {
   fill: #2196f3;
   cursor: pointer;
@@ -383,14 +379,9 @@ body {
   border: 1px solid #2196f3;
   transition: var(--transition-hover-focus);
 }
-.svg-form:hover,
-.svg-form:focus {
-  fill: #2196f3;
-  transition: var(--transition-hover-focus);
-}
 
-.input-form:focus,
-.svg-form:focus {
+.input-form:focus + .svg-form,
+.input-form:focus {
   fill: #2196f3;
 }
 
